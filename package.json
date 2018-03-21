@@ -1,0 +1,49 @@
+{
+  "name": "podcasthub",
+  "version": "1.0.0",
+  "description": "Podcast Manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "node runMocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredbangs/PodcastHub.git"
+  },
+  "keywords": [
+    "podcast"
+  ],
+  "author": "Jared Bangs",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/jaredbangs/PodcastHub/issues"
+  },
+  "homepage": "https://github.com/jaredbangs/PodcastHub#readme",
+  "dependencies": {
+    "backbone": "^1.3.3",
+    "backbone.marionette": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0",
+    "dotenv": "^5.0.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "jquery": "^3.3.1",
+    "moment": "^2.21.0",
+    "mongoose": "^5.0.11",
+    "popper.js": "^1.14.1",
+    "serve-favicon": "^2.4.5",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "browserify": "^16.1.1",
+    "browserify-handlebars": "^1.0.0",
+    "chai": "^4.1.2",
+    "lessify": "^1.0.1",
+    "mocha": "^5.0.4",
+    "request": "^2.85.0",
+    "sinon": "^4.4.6",
+    "sinon-chai": "^3.0.0",
+    "uglifyify": "^4.0.5"
+  }
+}
